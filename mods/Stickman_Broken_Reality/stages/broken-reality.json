@@ -1,0 +1,5 @@
+{
+ "stage":"broken-reality",
+ "layers":[{"name":"sky","image":"stages/broken-reality.svg","scroll":[0.1,0.1]},{"name":"grid","image":"stages/broken-reality.svg","scroll":[0.8,0.8]}],
+ "phases":{"intro":{"tint":"101522","alpha":1},"battle":{"tint":"18324a","alpha":1},"corruption":{"tint":"411c45","alpha":0.9},"breakdown":{"tint":"24122f","alpha":0.8},"final":{"tint":"54133f","alpha":0.75},"extreme":{"tint":"70162f","alpha":0.7},"apocalypse":{"tint":"ff315f","alpha":0.55},"outro":{"tint":"101522","alpha":1}}
+}

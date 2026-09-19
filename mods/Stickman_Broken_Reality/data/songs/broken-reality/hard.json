@@ -1,0 +1,10 @@
+{
+  "song":"broken-reality",
+  "bpm":200,
+  "difficulty":"Hard",
+  "totalBeats":256,
+  "totalSteps":2560,
+  "generator":"tools/generate_charts.py",
+  "pattern":"streams-bursts-holds",
+  "phaseRanges":[[0,32],[32,96],[96,160],[160,224],[224,256]]
+}

@@ -1,0 +1,6 @@
+{
+ "before":[{"portrait":"stickman","text":"That line was not here yesterday."},{"portrait":"fracture","text":"It is not a line. It is a door."},{"portrait":"stickman","text":"Then I will close it with a song."}],
+ "corruption":[{"portrait":"fracture","text":"STOP LOOKING AT ME."},{"portrait":"fracture","text":"THE BEAT IS INSIDE THE BREAK."}],
+ "final":[{"portrait":"stickman","text":"You are still in there."},{"portrait":"fracture","text":"NO. I AM THE STATIC."}],
+ "after":[{"portrait":"stickman","text":"The room is quiet. The crack is not."},{"portrait":"fracture","text":"...again."}]
+}

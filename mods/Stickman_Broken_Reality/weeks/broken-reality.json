@@ -1,0 +1,9 @@
+{
+  "storyName": "Broken Reality",
+  "weekBefore": "tutorial",
+  "weekName": "BROKEN REALITY",
+  "startUnlocked": true,
+  "songs": [["broken-reality", "stickman", [28, 235, 255]]],
+  "weekCharacters": ["", "", "stickman"],
+  "hiddenUntilUnlocked": false
+}

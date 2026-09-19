@@ -1,0 +1,10 @@
+# STICKMAN: BROKEN REALITY — asset manifest
+
+Required original binary assets not generated in this repository:
+
+- `mods/Stickman_Broken_Reality/songs/broken-reality/Inst.ogg`
+- `mods/Stickman_Broken_Reality/songs/broken-reality/Voices.ogg`
+
+Optional: rasterize the included SVGs only if the target Android build lacks SVG support. The SVGs are original lightweight fallback artwork. No SSV3 material is used.
+
+The chart generator is intentionally deterministic and covers all 2,560 steps. Run `python3 tools/generate_charts.py` from the repository root before packaging if your FNF fork requires native chart files instead of manifests.
