@@ -1,0 +1,12 @@
+{
+  "title": "STICKMAN: BROKEN REALITY",
+  "description": "Original FNF 0.8.8 mod. Install this folder directly inside the game's mods directory.",
+  "contributors": [
+    {
+      "name": "myusaaccunt-ui"
+    }
+  ],
+  "api_version": "0.8.0",
+  "mod_version": "1.0.0",
+  "license": "CC-BY-4.0"
+}

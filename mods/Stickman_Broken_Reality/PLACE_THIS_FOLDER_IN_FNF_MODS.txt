@@ -1,0 +1,9 @@
+This is the folder you must copy into the game's `mods` directory.
+
+Correct final Android path:
+`/sdcard/Android/obb/me.funkin.fnf/mods/Stickman_Broken_Reality/`
+
+The metadata file that makes the mod discoverable is beside this file:
+`_polymod_meta.json`
+
+Do not copy `fnf-mod-main` as the mod folder. Do not put another folder between `mods` and `Stickman_Broken_Reality`.
