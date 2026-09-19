@@ -1,0 +1,14 @@
+{
+  "title": "STICKMAN: BROKEN REALITY",
+  "description": "An original Android-focused FNF 0.8.8 mod about a stickman battle against a living fracture in reality.",
+  "contributors": [
+    {
+      "name": "myusaaccunt-ui",
+      "role": "Author"
+    }
+  ],
+  "api_version": "0.8.8",
+  "mod_version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/myusaaccunt-ui/fnf-mod"
+}
