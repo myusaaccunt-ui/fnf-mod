@@ -1,0 +1,14 @@
+{
+  "stage": "broken-reality",
+  "phases": [
+    { "name": "intro", "cameraZoom": 0.9, "flash": false, "glitch": false },
+    { "name": "battle", "cameraZoom": 1.0, "flash": false, "glitch": false },
+    { "name": "corruption", "cameraZoom": 1.05, "flash": true, "glitch": true },
+    { "name": "breakdown", "cameraZoom": 1.12, "flash": true, "glitch": true },
+    { "name": "final", "cameraZoom": 1.18, "flash": true, "glitch": true },
+    { "name": "extreme", "cameraZoom": 1.2, "flash": true, "glitch": true },
+    { "name": "apocalypse", "cameraZoom": 1.25, "flash": true, "glitch": true },
+    { "name": "outro", "cameraZoom": 0.95, "flash": false, "glitch": false }
+  ],
+  "notes": "Vanilla FNF 0.8.8 stage event map. These phase events are the timing markers for the custom song."
+}

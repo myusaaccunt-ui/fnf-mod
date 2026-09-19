@@ -1,0 +1,24 @@
+{
+  "debug": false,
+  "android": {
+    "low": {
+      "particleCap": 6,
+      "shaderIntensity": 0.0,
+      "maxCameraShake": 0.012,
+      "maxCameraZoom": 0.015
+    },
+    "medium": {
+      "particleCap": 18,
+      "shaderIntensity": 0.55,
+      "maxCameraShake": 0.025,
+      "maxCameraZoom": 0.025
+    },
+    "high": {
+      "particleCap": 32,
+      "shaderIntensity": 1.0,
+      "maxCameraShake": 0.045,
+      "maxCameraZoom": 0.04
+    }
+  },
+  "notes": "Vanilla-compatible Android optimization settings. The engine reads the selected mode once on song boot."
+}

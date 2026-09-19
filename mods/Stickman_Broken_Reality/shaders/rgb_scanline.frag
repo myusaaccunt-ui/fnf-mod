@@ -1,7 +1,19 @@
 #version 100
 precision mediump float;
 uniform sampler2D bitmap;
-uniform float uTime;
-uniform float uStrength;
-varying vec2 openfl_TextureCoordv;
-void main(){ vec2 uv=openfl_TextureCoordv; float line=sin(uv.y*720.0+uTime*12.0)*0.001*uStrength; vec2 r=uv+vec2(line,0.0); vec2 b=uv-vec2(line,0.0); vec4 c=texture2D(bitmap,uv); c.r=texture2D(bitmap,r).r; c.b=texture2D(bitmap,b).b; float scan=1.0-0.08*uStrength*sin(uv.y*900.0); gl_FragColor=vec4(c.rgb*scan,c.a); }
+uniform float time;
+uniform float strength;
+uniform vec2 resolution;
+varying vec2 vTexCoord;
+
+void main() {
+  vec2 uv = vTexCoord;
+  float wobble = sin((uv.y * 540.0) + time * 9.0) * 0.01 * strength;
+  vec2 r = uv + vec2(wobble, 0.0);
+  vec2 b = uv - vec2(wobble, 0.0);
+  vec4 base = texture2D(bitmap, uv);
+  vec4 red = texture2D(bitmap, r);
+  vec4 blue = texture2D(bitmap, b);
+  float scan = 1.0 - 0.12 * strength * sin(uv.y * 960.0);
+  gl_FragColor = vec4((red.r + base.g + blue.b) * 0.6 * scan, base.a);
+}

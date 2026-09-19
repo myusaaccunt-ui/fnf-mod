@@ -1,0 +1,16 @@
+{
+  "modName": "STICKMAN: BROKEN REALITY",
+  "engineVersion": "FNF 0.8.8",
+  "platform": "Android",
+  "author": "Original mod package",
+  "song": "broken-reality",
+  "bpm": 200,
+  "lengthSeconds": 192,
+  "difficulties": ["Easy", "Normal", "Hard", "Insane", "Nightmare", "Apocalypse"],
+  "graphicsModes": ["LOW", "MEDIUM", "HIGH"],
+  "requiredAudio": [
+    "mods/Stickman_Broken_Reality/songs/broken-reality/Inst.ogg",
+    "mods/Stickman_Broken_Reality/songs/broken-reality/Voices.ogg"
+  ],
+  "notes": "This project is in a vanilla FNF 0.8.8-compatible layout. It avoids Psych Engine-only folder names and script APIs."
+}

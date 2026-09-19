@@ -1,0 +1,2 @@
+# Delete any Psych Engine-specific script names or APIs.
+# This repo now uses a vanilla FNF 0.8.8 layout and should not rely on Psych-only folder conventions.

@@ -1,7 +1,15 @@
 #version 100
 precision mediump float;
 uniform sampler2D bitmap;
-uniform float uTime;
-uniform float uStrength;
-varying vec2 openfl_TextureCoordv;
-void main(){ vec2 uv=openfl_TextureCoordv; float band=step(0.92,fract(sin(floor(uv.y*90.0)+uTime*3.0)*43758.5)); uv.x+= (band-0.5)*0.025*uStrength; gl_FragColor=texture2D(bitmap,uv); }
+uniform float time;
+uniform float strength;
+uniform vec2 resolution;
+varying vec2 vTexCoord;
+
+void main() {
+  vec2 uv = vTexCoord;
+  float bands = floor(uv.y * 90.0 + time * 3.0);
+  float glitch = fract(sin(bands * 12.9898) * 43758.5453);
+  uv.x += (glitch - 0.5) * 0.025 * strength;
+  gl_FragColor = texture2D(bitmap, uv);
+}
