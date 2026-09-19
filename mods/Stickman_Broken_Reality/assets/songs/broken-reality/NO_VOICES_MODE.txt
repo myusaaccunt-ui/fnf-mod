@@ -1,0 +1,11 @@
+# NO VOCALS MODE
+
+This mod is configured to run without a vocal track. The song is driven entirely by the instrumental in:
+
+`assets/songs/broken-reality/Inst.ogg`
+
+If you later add a separate vocal track, drop it in as:
+
+`assets/songs/broken-reality/Voices.ogg`
+
+and change the metadata `needsVoices` value to true.

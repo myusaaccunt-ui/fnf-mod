@@ -8,7 +8,8 @@
   "playerCharacter": "stickman",
   "opponentCharacter": "fracture",
   "instrumental": "songs/broken-reality/Inst.ogg",
-  "vocals": "songs/broken-reality/Voices.ogg",
+  "vocals": null,
+  "needsVoices": false,
   "difficulties": ["easy", "normal", "hard", "insane", "nightmare", "apocalypse"],
   "chartFiles": {
     "easy": "easy.fnfc",
