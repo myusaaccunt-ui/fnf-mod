@@ -1,4 +1,0 @@
-{
- "song":"broken-reality",
- "events":[{"step":0,"name":"BrokenPhase","value1":"intro"},{"step":256,"name":"BrokenPhase","value1":"battle"},{"step":768,"name":"BrokenPhase","value1":"corruption"},{"step":1280,"name":"BrokenPhase","value1":"breakdown"},{"step":1792,"name":"BrokenPhase","value1":"final"},{"step":2048,"name":"BrokenPhase","value1":"extreme"},{"step":2304,"name":"BrokenPhase","value1":"apocalypse"},{"step":2528,"name":"BrokenPhase","value1":"outro"}]
-}
