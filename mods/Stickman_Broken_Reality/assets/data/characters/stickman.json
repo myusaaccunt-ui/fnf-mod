@@ -1,0 +1,22 @@
+{
+  "name": "stickman",
+  "assetPath": "images/characters/stickman",
+  "healthIcon": "stickman",
+  "flipX": false,
+  "scale": 1.0,
+  "animations": [
+    {"name":"idle","prefix":"idle","fps":12},
+    {"name":"singLEFT","prefix":"left","fps":18},
+    {"name":"singDOWN","prefix":"down","fps":18},
+    {"name":"singUP","prefix":"up","fps":18},
+    {"name":"singRIGHT","prefix":"right","fps":18},
+    {"name":"singLEFTmiss","prefix":"left_miss","fps":18},
+    {"name":"singDOWNmiss","prefix":"down_miss","fps":18},
+    {"name":"singUPmiss","prefix":"up_miss","fps":18},
+    {"name":"singRIGHTmiss","prefix":"right_miss","fps":18},
+    {"name":"special","prefix":"special","fps":20},
+    {"name":"hurt","prefix":"hurt","fps":20},
+    {"name":"final","prefix":"final","fps":14},
+    {"name":"victory","prefix":"victory","fps":12}
+  ]
+}

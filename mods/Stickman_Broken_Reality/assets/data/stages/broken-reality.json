@@ -1,0 +1,9 @@
+{
+  "name": "broken-reality",
+  "assetPath": "images/stages/broken-reality",
+  "camera": {"zoom": 1.0, "position": [0, 0]},
+  "layers": [
+    {"asset":"images/stages/broken-reality","scrollFactor":[0.15,0.15]},
+    {"asset":"images/stages/broken-reality-grid","scrollFactor":[0.8,0.8]}
+  ]
+}

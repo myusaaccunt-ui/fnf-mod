@@ -1,0 +1,15 @@
+{
+  "weekName": "BROKEN REALITY",
+  "weekId": "broken-reality",
+  "songs": [{
+    "id": "broken-reality",
+    "displayName": "Broken Reality",
+    "assetPath": "broken-reality"
+  }],
+  "characters": {
+    "player": "stickman",
+    "opponent": "fracture"
+  },
+  "stage": "broken-reality",
+  "locked": false
+}

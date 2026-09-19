@@ -1,0 +1,21 @@
+{
+  "id": "broken-reality",
+  "displayName": "Broken Reality",
+  "songName": "broken-reality",
+  "bpm": 200,
+  "timeSignature": [4, 4],
+  "stage": "broken-reality",
+  "playerCharacter": "stickman",
+  "opponentCharacter": "fracture",
+  "instrumental": "songs/broken-reality/Inst.ogg",
+  "vocals": "songs/broken-reality/Voices.ogg",
+  "difficulties": ["easy", "normal", "hard", "insane", "nightmare", "apocalypse"],
+  "chartFiles": {
+    "easy": "easy.fnfc",
+    "normal": "normal.fnfc",
+    "hard": "hard.fnfc",
+    "insane": "insane.fnfc",
+    "nightmare": "nightmare.fnfc",
+    "apocalypse": "apocalypse.fnfc"
+  }
+}

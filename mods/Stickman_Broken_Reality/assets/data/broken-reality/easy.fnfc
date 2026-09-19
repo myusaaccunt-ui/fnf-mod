@@ -1,0 +1,18 @@
+{
+  "id": "broken-reality",
+  "displayName": "Broken Reality",
+  "bpm": 200,
+  "version": 1,
+  "generatedBy": "STICKMAN: BROKEN REALITY chart authoring manifest",
+  "noteData": [],
+  "events": [
+    {"step":0,"event":"intro"},
+    {"step":256,"event":"battle"},
+    {"step":768,"event":"corruption"},
+    {"step":1280,"event":"breakdown"},
+    {"step":1792,"event":"final"},
+    {"step":2048,"event":"extreme"},
+    {"step":2304,"event":"apocalypse"},
+    {"step":2528,"event":"outro"}
+  ]
+}
