@@ -1,0 +1,23 @@
+{
+  "name": "fracture",
+  "displayName": "Fracture",
+  "healthIcon": "fracture",
+  "image": "characters/fracture.svg",
+  "animations": {
+    "idle": "idle",
+    "left": "left",
+    "down": "down",
+    "up": "up",
+    "right": "right",
+    "leftMiss": "left_miss",
+    "downMiss": "down_miss",
+    "upMiss": "up_miss",
+    "rightMiss": "right_miss",
+    "special": "special",
+    "corrupt": "corrupt",
+    "final": "final"
+  },
+  "flipX": true,
+  "scale": 1.0,
+  "notes": "Original corrupted opponent. Final raster sprite set still needs to be generated for the actual game build."
+}

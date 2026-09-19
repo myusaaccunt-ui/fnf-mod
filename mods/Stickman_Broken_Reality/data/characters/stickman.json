@@ -1,0 +1,24 @@
+{
+  "name": "stickman",
+  "displayName": "Stickman",
+  "healthIcon": "stickman",
+  "image": "characters/stickman.svg",
+  "animations": {
+    "idle": "idle",
+    "left": "left",
+    "down": "down",
+    "up": "up",
+    "right": "right",
+    "leftMiss": "left_miss",
+    "downMiss": "down_miss",
+    "upMiss": "up_miss",
+    "rightMiss": "right_miss",
+    "special": "special",
+    "hurt": "hurt",
+    "final": "final",
+    "victory": "victory"
+  },
+  "flipX": false,
+  "scale": 1.0,
+  "notes": "Original protagonist. Final raster sprite sheet still needs to be generated for the actual game build."
+}

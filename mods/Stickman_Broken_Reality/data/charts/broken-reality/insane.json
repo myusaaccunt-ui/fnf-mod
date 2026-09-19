@@ -1,0 +1,19 @@
+{
+  "song": "broken-reality",
+  "difficulty": "Insane",
+  "bpm": 200,
+  "steps": 2560,
+  "warning": true,
+  "warningText": "WARNING\nEXTREME DIFFICULTY",
+  "phaseBreakdown": [
+    { "name": "intro", "startStep": 0, "endStep": 255 },
+    { "name": "battle", "startStep": 256, "endStep": 767 },
+    { "name": "corruption", "startStep": 768, "endStep": 1279 },
+    { "name": "breakdown", "startStep": 1280, "endStep": 1791 },
+    { "name": "final", "startStep": 1792, "endStep": 2047 },
+    { "name": "extreme", "startStep": 2048, "endStep": 2303 },
+    { "name": "apocalypse", "startStep": 2304, "endStep": 2527 },
+    { "name": "outro", "startStep": 2528, "endStep": 2559 }
+  ],
+  "notes": "Insane chart scaffold, denser patterns and faster direction changes."
+}
